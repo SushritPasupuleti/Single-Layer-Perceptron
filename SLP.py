@@ -48,7 +48,7 @@ if __name__ == "__main__":
     neural_network = NeuralNetwork()
     
     #We start with Randomized weights
-    print("Random starting synaptic weights: ")
+    print("Random weights: ")
     print(neural_network.weights)
 
     #We take four 3x1 matrices as our imput(training) data
@@ -64,7 +64,7 @@ if __name__ == "__main__":
 
     #We print our weights after the training has been finished
     #Compare the weights from numerous runs, to see variations
-    print("New synaptic weights after training: ")
+    print("New weights after training: ")
     print(neural_network.weights)
 
     #Here we can ask the network to finally predict values for a given input
