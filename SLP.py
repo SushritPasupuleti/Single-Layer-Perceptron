@@ -23,7 +23,7 @@ class NeuralNetwork():
     #This is the training set, we try adjusting our weights through each iteration.
     #This is done by trial and error
     def train(self, training_set_inputs, training_set_outputs, number_of_training_iterations):
-        for iteration in range(number_of_training_iterations):
+        for training_step in range(number_of_training_iterations):
             #We pass the input data(training data) through our network
             output = self.predict(training_set_inputs)
 
